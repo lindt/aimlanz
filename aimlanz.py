@@ -36,7 +36,7 @@ class Aimlanz:
         if 'dog' in session:
             if 'dog race' in session:
                 if session['dog race'] == 'Pitbull':
-                    result.append('A car insurance including a person insurance')
+                    result.append('A dog insurance including a person insurance')
                 else:
                     result.append('A dog insurance for your {0}'.format(session['dog race']))
             else:
