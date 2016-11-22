@@ -1,0 +1,58 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>MY DOGS NAME IS *</pattern>
+      <template>
+         That is interesting that you have a dog named <set name="dog"><star/></set>
+      </template>  
+   </category>  
+   <category>
+      <pattern>MY DOG IS A *</pattern>
+      <template>
+         These days many people have <set name="dog race"><star/></set> dogs
+      </template>  
+   </category>  
+   <category>
+      <pattern>WHAT IS MY DOGS NAME</pattern>
+      <template>
+         Your dog's name is <get name="dog"/>.
+      </template>
+   </category>
+   <category>
+      <pattern>I HAVE A CAR FROM *</pattern>
+      <template>
+         That is interesting that you have a car from <set name="car"><star/></set>
+      </template>
+   </category>
+   <category>
+      <pattern>WHAT CAR DO I HAVE</pattern>
+      <template>
+         You have a <get name="car"/>.
+      </template>
+   </category>
+   
+   <category>
+      <pattern>WHAT PERSONAL OFFERS DO YOU HAVE</pattern>
+      <template>Your personal offers are: <get name="personal offers"/>
+      
+      If you take them all, you will get <get name="personal discount"/>% discount
+      </template>
+   </category>
+
+   <category>
+      <pattern>WHAT INSURANCES DO YOU HAVE</pattern>
+      <template>Your personal offers are: <get name="personal offers"/>
+      
+      If you take them all, you will get <get name="personal discount"/>% discount
+      </template>
+   </category>
+
+   <category>
+     <pattern>DO I HAVE A DOG</pattern>
+     <template>
+       <condition name="dog">
+         <li value="Mike">Mike. Same name like my dog.</li>
+         <li>sure. But you need to send me a picture of <get name="dog"/> later.</li>
+       </condition>
+     </template>
+  </category>
+</aiml>
