@@ -1,14 +1,20 @@
-# aimlanz
-Insurance Chat Bot Mockup
+# aimlanz - Insurance Chat Bot Mockup
 
-Goal is to reduce service and acquisition costs. Getting the insurance needs for the customer out of a conversation.
+Goal is to reduce service and acquisition costs for insurance companies.
+Getting the insurance needs for the customer out of a conversation.
 
-Chat Bot based on AIML.
+Chat Bot based on AIML - Artifical Intelligence Markup Language
+
+## Advantages
+
+ - based on existing NLTP technology
+ - Usage of aiml for insurance specific questions and knowledge acquisition
+ - Offers are calculated in Python itself to be able to query existing databases
 
 ## Example usage
 
-it loads a special tailored insurance aiml file
-  Loading allianz.aiml... done (0.00 seconds)
+It loads a special tailored insurance aiml file
+`Loading allianz.aiml... done (0.00 seconds)`
 
 Then you can interact with the bot and
 `Enter your message >> my dogs name is Mike`
